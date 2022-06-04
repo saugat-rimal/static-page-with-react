@@ -1,0 +1,81 @@
+.contacts {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    max-width: 1600px;
+}
+
+.space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+
+
+}
+
+.gray {
+    color: #918E9B;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 260px;
+    position: relative;
+
+}
+
+.card--update {
+    background-color: white;
+    padding: 8px 13px;
+    border-radius: 9px;
+    position: absolute;
+    top: -4px;
+    left: 20px;
+}
+
+
+.rating p {
+    font-size: 16px;
+}
+
+.star {
+    width: 17px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+
+}
+
+.up {
+    margin-top: -10px;
+}
+
+.image:hover {
+    width: 100%;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0.25);
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 640px) {
+    .contacts {
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .contacts {
+        padding: 0 40px;
+    }
+
+}

@@ -1,0 +1,129 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero--banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.banner {
+    max-width: 600px;
+    height: auto;
+    margin: 40px 20px;
+    display: block;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    align-self: center;
+
+
+}
+
+.Bigbanner {
+    display: none;
+}
+
+.hero--content {
+    margin: 30px;
+}
+
+.hero--title {
+    font-size: 2rem;
+}
+
+.hero--paragraph {
+    font-size: 1rem;
+    width: 300px;
+    font-weight: 500;
+}
+
+
+@media screen and (min-width: 640px) {
+    .banner {
+        display: none;
+        align-self: center;
+    }
+
+    .Bigbanner {
+        display: block;
+        margin: 60px 60px;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        align-self: center;
+
+    }
+
+    .hero--content {
+        margin: 30px 50px;
+    }
+
+    .hero--title {
+        font-size: 3rem;
+    }
+
+    .hero--paragraph {
+        font-size: 1.4rem;
+        width: 450px;
+        font-weight: 500;
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .Bigbanner {
+        display: block;
+        margin: 60px 90px;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .hero--content {
+        margin: 30px 0px 0px 90px;
+    }
+
+    .hero--title {
+        font-size: 3.5rem;
+    }
+
+    .hero--paragraph {
+        font-size: 1.4rem;
+        width: 500px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .Bigbanner {
+        display: block;
+        margin: 60px 90px;
+        width: 70%;
+        height: auto;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    .hero--content {
+        margin: 30px 0px 0px 180px;
+    }
+
+    .hero--title {
+        font-size: 3.5rem;
+    }
+
+    .hero--paragraph {
+        font-size: 1.4rem;
+        width: 500px;
+    }
+
+}
