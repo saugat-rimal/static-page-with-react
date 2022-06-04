@@ -1,5 +1,4 @@
 import Info from './Info'
-import Kaite from "../images/kaite.png"
 import Saugat from "../images/saugatrimalwithmic.jpg"
 import Start from "../images/startwithwhy.jpg"
 import Mogambo from "../images/mogambo.jpg"
